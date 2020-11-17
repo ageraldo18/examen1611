@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <title> HotKitties </title>
+    </head>
+    
+    <body>
+        <header>
+            <div class="logo">
+               <img src="img/logo.png" alt=""> 
+            </div>
+           
+            <nav>
+                <li class="Inicio"><a href="index.html">Inicio</a></li>
+                <li class="Productos"><a href="productos.html">Productos</a></li>
+                <li class="Contacto"><a href="contacto.html">Contacto</a></li>
+            </nav>
+            
+            <div class="socials">
+                <span><i class="fab fa-facebook" style="color: white;"></i><a href="facebook.com"></a></span>
+                <span><i class="fab fa-twitter" style="color: white;"></i><a href="twitter.com"></a></span>
+                <span><i class="fab fa-youtube" style="color: white;"></i><a href="youtube.com"></a></span>
+            </div>
+            
+        </header>
+        
+        <main>
+            <section class="contact">
+                <h2>Contacto</h2>
+                <form class="form">
+                    <label for="f-name">*Nombre: </label><br>
+                    <input type="text" id="f-name" name="f-name"><br>
+                    
+                    <label for="email">*Email: </label><br>
+                    <input type="text" id="email" name="email"><br>
+                    
+                    <label for="message">*Mensaje: </label><br>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea><br>
+                    
+                    <button type="submit" form="form" value="Submit">Enviar</button>
+                </form>
+                <div class="map-info">
+                    <h3>Mapa de ubicación</h3>
+                    <div class="map">
+                        <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=hot%20cats%20chametla&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                    <p>Ejido Chametla, calle Colima entre calle y calle. La Paz, BCS, México <br>
+                    6121273921 <br>
+                    hotkitties@gmail.com</p>
+                </div>
+                
+            </section>
+        </main>
+        
+        <footer>
+           <div class="footer-map">
+               <div class="map">
+                    <iframe width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=hot%20cats%20chametla&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <p>Ejido Chametla, calle Colima entre calle y calle. La Paz, BCS, México</p>
+                </div>
+           </div>
+            
+            <div class="footer-rights">
+                <p>Este ha sitio ha sido creado por Andrés Geraldo y Alexandro Bernal <br>
+                para el negocio local: HotKitties <br>
+                Derechos reservados al año 2020</p>
+            </div>
+            
+            <div class="footer-socials">
+                <div class="data-icon-1">
+                    <span><i class="fab fa-facebook" style="color: white;"></i><a href="facebook.com"></a></span>
+                    <p>/HotKitties</p>
+                </div>
+                <div class="data-icon-2">
+                    <span><i class="fab fa-twitter" style="color: white;"></i><a href="twitter.com"></a></span>
+                    <p>/HotKitties</p>
+                </div>
+                <div class="data-icon-3">
+                    <span><i class="fab fa-youtube" style="color: white;"></i><a href="twitter.com"></a></span>
+                    <p>/HotKitties</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

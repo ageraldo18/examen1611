@@ -1,0 +1,705 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    background-color: #ABB5CA8A;
+}
+
+body header{
+    background-color: #112F49;
+    width: 90%;
+    height: 190px;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+body header .socials{
+    float: right;
+    margin-top: 3%;
+}
+
+body header .socials span{
+    display:block;
+    font-size: 28px;
+    text-align: center;
+}
+
+body header .socials span i{
+    width: 30px;
+    height: 30px;
+}
+
+body header .logo{
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+}
+
+body header .logo img{
+    width: 250px;
+    height: 170px;
+}
+
+body header nav{
+    float: left;
+    margin-top: 6%;
+}
+
+body header nav li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+}
+
+body header nav li:hover{
+    background-color: white;
+    border-radius: 9px;
+    transition: 1s;
+}
+
+body header nav li a:hover{
+    color: black;
+    transition: 1s;
+}
+
+body header nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+body main .first-img{
+    text-align: center;
+}
+
+body main .first-img img{
+    width: 100%;
+}
+
+body main .first-img h2{
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+body main .general-info{
+    padding: 1%;
+    height: 300px;
+    width: 60%;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(255,0,0,0.8295693277310925) 0%, rgba(122,16,16,0.5578606442577031) 35%, rgba(255,255,255,0) 100%);
+} 
+
+body main .general-info img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+}
+
+body main .general-info h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+body main .general-info p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+body main .central-info-div{
+    padding: 1%;
+    background-color: #204B6A;
+    height: 280px;
+}
+
+body main .central-info-div h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+}
+
+body main .central-info-div .central-images{
+    width: 99%;
+    text-align: center;
+}
+
+body main .central-info-div .central-images img{
+    width: 255px;
+    height: 240px;
+}
+
+body main .data-info-relevant{
+    height: 180px;
+    padding: 1%;
+}
+
+body main .data-info-relevant h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+body main .data-info-relevant .data-icons div{
+    float: left;
+    display: inline-block;
+    background-color: #00050B;
+    margin: 5px;
+    padding: 5px;
+    height: 125px;
+    width: 31.82%;
+    border-radius: 5px;
+}
+
+body main .data-info-relevant .data-icons div span i{
+    text-align: center;
+    font-size: 64px;
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+}
+
+body main .data-info-relevant .data-icons div p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+}
+
+body footer{
+    background-color: #112F49;
+    height: 270px;
+}
+
+body footer .footer-map, .footer-rights{
+    width: 33.20%;
+    border-right: 1px solid black;
+    float: left;
+}
+
+body footer .footer-socials{
+    float: left;
+    width: 33.33%;
+}
+
+body footer .footer-map .map{
+    padding: 20px;
+    text-align: center;
+}
+
+body footer .footer-map p{
+    text-align: center;
+    color: white;
+}
+
+body footer .footer-rights{
+    height: 100%;
+}
+
+body footer .footer-rights p{
+    text-align: center;
+    margin-top: 27%;
+    color: white;
+}
+
+body footer .footer-socials{
+    margin-top: 4%;
+    text-align: center;
+}
+
+body footer .footer-socials div{
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+
+body footer .footer-socials div>span{
+    float: left;
+    font-size: 48px;
+    margin-right: 10px;
+}
+
+body footer .footer-socials div p{
+    text-align: left;
+    padding-top: 10px;
+    color: white;
+}
+
+/* productos */
+
+body main .products{
+    background-color: #5F3168;
+    height: 880px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+body main .products h2{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+body main .products div>img{
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+body main .products div{
+    background: linear-gradient(180deg, rgba(255,255,255,0.6727065826330532) 0%, rgba(133,126,126,0.7483368347338936) 100%);
+    margin: 5px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-radius: 3px;
+    float: left;
+}
+
+body main .products div>h3{
+    text-align: center;
+}
+
+body main .products div>p{
+    text-align: center;
+}
+
+body main .products div>h4{
+    text-align: center;
+    margin-top: 5px;
+    color:darkred;
+}
+
+body main .products div>.add-cart:active{
+    background-image: -webkit-linear-gradient(45deg, #26267B 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #26267B 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+  -webkit-transition: background 100ms ease-in-out;
+  transition: background 200ms ease-in-out;
+}
+
+/* contacto */
+
+body main .contact{
+    background-color: #77407D;
+}
+
+body main .contact h2{
+    text-align: center;
+}
+
+body main .contact .form{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+body main .contact .form input{
+    margin-bottom: 5px;
+    width: 180px;
+    height: 25px;
+}
+
+body main .contact .form textarea{
+    width: 350px;
+    height: 120px;
+}
+
+body main .contact .form button{
+    margin-bottom: 20px;
+    background-color: aqua;
+    border-radius: 3px;
+    width: 80px;
+    height: 35px;
+    font-size: 25px;
+}
+
+body main .contact .map-info{
+    text-align: center;
+    background-color: #2F4053;
+    color: white;
+}
+
+body main .contact .map-info h3{
+    font-weight: 100;
+    font-size: 23px;
+}
+
+body main .contact .map-info p{
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.b-login{
+    background-color: black;
+    
+}
+
+.b-login .login{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #314F50;
+    padding: 20px;
+    border-bottom-left-radius: 50px;
+}
+
+.b-login .login img{
+    width: 50%;
+    margin: auto auto;
+    display: block;
+}
+
+.b-login .login h2{
+    color: white;
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.b-login .login form{
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.b-login .login form input{
+    border: 0;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 25px;
+    outline: 0;
+    border-bottom: 2px solid black;
+    background: none;
+    font-family: arial;
+    color: white;
+}
+
+.b-login .login form button{
+    font-family: 'Nunito', sans-serif;
+    width: 130px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    margin-bottom: 5px;
+}
+
+.b-login .login form p{
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.b-login .login form button:hover{
+    background-color: #973E7E;
+    transition-duration: 2s, 1s, 0.5s, 0.5s;
+}
+
+/* SIGNUP */
+
+.b-signup{
+    background-color: black;
+    
+}
+
+.b-signup .signup{
+    width: 800px;
+    height: 610px;
+    margin: 0 auto;
+    background-color: #314F50;
+    padding: 20px;
+    border-bottom-left-radius: 50px;
+}
+
+.b-signup .signup img{
+    width: 50%;
+    margin: auto auto;
+    display: block;
+}
+
+.b-signup .signup h2{
+    color: white;
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.b-signup .signup form{
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.b-signup .signup form input{
+    border: 0;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 25px;
+    outline: 0;
+    border-bottom: 2px solid black;
+    background: none;
+    font-family: arial;
+    color: white;
+}
+
+.b-signup .signup form button{
+    font-family: 'Nunito', sans-serif;
+    width: 130px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    margin-bottom: 5px;
+}
+
+.b-signup .signup form p{
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.b-signup .signup form button:hover{
+    background-color: #973E7E;
+    transition-duration: 2s, 1s, 0.5s, 0.5s;
+}
+
+/* CARRITO DE COMPRAS */
+.shopping-cart{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    display: none;
+    transition: all 500ms linear;
+    -webkit-box-shadow: -11px 7px 43px 0px rgba(0,0,0,0.66);
+    -moz-box-shadow: -11px 7px 43px 0px rgba(0,0,0,0.66);
+    box-shadow: -11px 7px 43px 0px rgba(0,0,0,0.66);
+}
+
+.shopping-cart h2{
+    padding: 20px 0px 0px 20px;
+    font-size: 35px;
+    border-bottom: 2px solid black;
+}
+
+.shopping-cart table{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.shopping-cart table th{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.cart{
+    position: fixed;
+    font-size: 30px;
+    margin-left: 1280px;
+    margin-top: 580px;
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cart:hover{
+    background-color:darkslategrey;
+    transition: 1s;
+    font-size: 35px;
+}
+
+.cart i{
+    margin-top: 5px;
+}
+
+.cart i:hover{
+    margin-top: 5px;
+}
+
+.shopping-cart .buy-all-btn{
+    background-color: cornflowerblue;
+    font-family: arial;
+    border: none;
+    width: 98%;
+    margin: 1%;
+    padding: 10px;
+    font-size: 35;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:1200px){
+    body header{
+        height: 260px;
+    }
+    
+    body header .logo{
+        width: 100%;
+    } 
+    
+    body header .logo img{
+        width: 240px;
+        height: 180px;
+    }
+    
+    body header .socials span{
+        display: none;
+    }
+    
+    body header nav{
+        width: 100%;
+        text-align: center;
+    }
+    
+    body header nav li a{
+        font-size: 18px;
+    }
+    
+    body main .first-img h2{
+        padding-top: 1px;
+        font-size: 15px;
+    }
+    
+    body main .general-info{
+        padding: 2%;
+        width: 95.3%;
+        height: 500px;
+    }
+    
+    body main .general-info h3{
+        float: right;
+        width: 100%;
+        font-size: 17px;
+    }
+    
+    body main .general-info p{
+        float: right;
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    body main .central-info-div{
+        height: 1255px;
+    }
+    
+    body main .central-info-div h3{
+      font-size: 20px;
+    }
+    
+    body main .central-info-div .central-images{
+        width: 100%;
+    }
+    
+    body main .central-info-div .central-images img{
+        width: 80%;
+    }
+    
+    body main .data-info-relevant{
+        height: 410px;
+    }
+    
+    body main .data-info-relevant h3{
+        font-size: 20px;
+    }
+    
+    body main .data-info-relevant .data-icons{
+        width: 100%;
+    }
+    
+    body main .data-info-relevant .data-icons div{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1%;
+        padding: 0;
+    }
+    
+    body footer{
+        font-size: 13px;
+        height: 200px;
+    }
+    
+    body footer .footer-map{
+        height: 200px;
+    }
+    
+    body footer .footer-map .map iframe{
+        display: none;
+    }
+    
+    body footer .footer-rights{
+        padding: 2%;
+        height: 180px;
+    }
+    
+    body footer .footer-socials{
+        width: auto;
+        text-align: center;
+    }
+    
+    body footer .footer-socials div{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 3px;
+        text-align: center;
+        margin-left: 30%;
+    }
+    
+    body footer .footer-socials div span{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    
+    }
+    
+    /* productos responsive */
+    body main .products{
+        height: 2470px;
+    }
+    
+    body main .products div{
+        margin: 0;
+        padding: 1%;
+        width: 98%;
+        margin-bottom: 2%;
+    }
+    
+}
